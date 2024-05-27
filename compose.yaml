@@ -1,0 +1,10 @@
+version: '1.0'
+
+services:
+  airflow-container:
+    image: airflow-image
+    build: .
+    volumes:
+      - ./working_files:/usr/local/airflow/working_files
+    ports:
+      - "9898:8080"

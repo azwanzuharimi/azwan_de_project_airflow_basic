@@ -1,0 +1,10 @@
+pandas 
+duckdb 
+requests 
+requests-html 
+pyarrow
+openpyxl
+papermill
+snowflake-connector-python
+apache-airflow-providers-papermill
+deltalake
